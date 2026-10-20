@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cumpre · Organiza a escola e estuda com foco</title>
+<meta name="description" content="Horário, testes, trabalhos e resumos num só sítio. A Cumpre diz-te o que estudar hoje para chegares ao teste preparado, e cada minuto de estudo dá pontos. Grátis, do 1.º ciclo ao ensino superior.">
+<link rel="canonical" href="https://cumpre.pt/">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E0E0E" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:site_name" content="Cumpre">
+<meta property="og:url" content="https://cumpre.pt/">
+<meta property="og:title" content="Cumpre · Organiza a escola e estuda com foco">
+<meta property="og:description" content="Horário, testes, trabalhos e resumos num só sítio. Grátis, do 1.º ciclo ao ensino superior.">
+<meta property="og:image" content="https://cumpre.pt/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-seta" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-camara" viewBox="0 0 24 24"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6H8l1.5-2h5L16 6h1.5A2.5 2.5 0 0 1 20 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5z"/><circle cx="12" cy="12.5" r="3.5"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-plano" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M8 3v4M16 3v4M8.5 14l2.5 2.5 4.5-4.5"/></symbol>
+  <symbol id="i-foco" viewBox="0 0 24 24"><circle cx="12" cy="13" r="7.5"/><path d="M12 9.5V13l2.5 1.5M10 2.5h4"/></symbol>
+  <symbol id="i-sino" viewBox="0 0 24 24"><path d="M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></symbol>
+  <symbol id="i-media" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8.5 7.5h7M9 12h.01M12 12h.01M15 12h.01M9 15.5h.01M12 15.5h.01M15 15.5h.01"/></symbol>
+  <symbol id="i-quadro" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-4 4 4M7 8.5h6M7 11.5h4"/></symbol>
+  <symbol id="i-pasta" viewBox="0 0 24 24"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></symbol>
+  <symbol id="i-estrela" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></symbol>
+  <symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-pais" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.2a5 5 0 0 1 5.5 5.3"/></symbol>
+  <symbol id="i-semanuncios" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M6 6l12 12"/></symbol>
+  <symbol id="i-lixo" viewBox="0 0 24 24"><path d="M4.5 7h15M9.5 7V4.5h5V7M6.5 7l1 12.5h9l1-12.5"/></symbol>
+  <symbol id="i-semchat" viewBox="0 0 24 24"><path d="M20 12a7.5 7.5 0 0 1-11 6.6L4 20l1.2-4.4A7.5 7.5 0 1 1 20 12z"/><path d="M5 4.5l14 15"/></symbol>
+  <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-livro" viewBox="0 0 24 24"><path d="M5 4.5h9a3 3 0 0 1 3 3v12H8a3 3 0 0 1-3-3z"/><path d="M5 16.5a3 3 0 0 1 3-3h9"/></symbol>
+  <symbol id="i-gota" viewBox="0 0 24 24"><path d="M12 3.5c3 4 6 7 6 10.5a6 6 0 0 1-12 0c0-3.5 3-6.5 6-10.5z"/></symbol>
+  <symbol id="i-chapeu" viewBox="0 0 24 24"><path d="M3 9.5l9-4.5 9 4.5-9 4.5z"/><path d="M7 11.5v4c1.5 1.5 3 2 5 2s3.5-.5 5-2v-4"/></symbol>
+</svg>
+
+<header class="top" id="topo">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Cumpre, início">
+      <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#111"/><path d="M66.16 64.55A21.75 21.75 0 1 1 66.16 35.45" fill="none" stroke="#FF6B4A" stroke-width="10.5" stroke-linecap="round"/></svg>
+      cumpre
+    </a>
+    <nav class="nav" aria-label="Secções">
+      <a href="#como">Como funciona</a>
+      <a href="#funcoes">Funções</a>
+      <a href="#pontos">Pontos</a>
+      <a href="#pais">Encarregados de educação</a>
+      <a href="#perguntas">Perguntas</a>
+    </nav>
+    <div class="acoes">
+      <a class="btn ghost sm entrar" href="https://app.cumpre.pt">Entrar</a>
+      <a class="btn sm" href="https://app.cumpre.pt">Criar conta</a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow"><b>Grátis</b> Do 1.º ciclo ao ensino superior</span>
+      <h1>Cumpre o que tens para estudar. <em>Sem deixar para a véspera.</em></h1>
+      <p class="lead">O horário, os testes, os trabalhos e os resumos num só sítio. Todos os dias a Cumpre diz-te o que estudar para chegares ao teste preparado, e cada minuto de estudo dá pontos.</p>
+      <div class="cta">
+        <a class="btn lg" href="https://app.cumpre.pt">Criar conta grátis <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+        <a class="btn lg ghost" href="#como">Ver como funciona</a>
+      </div>
+      <p class="nota">
+        <span><svg aria-hidden="true"><use href="#i-check"/></svg>No telemóvel e no computador</span>
+        <span><svg aria-hidden="true"><use href="#i-check"/></svg>Sem instalar nada</span>
+        <span><svg aria-hidden="true"><use href="#i-check"/></svg>Sem publicidade</span>
+      </p>
+    </div>
+
+    <div class="palco" aria-label="Ecrãs da app Cumpre" role="img">
+      <!-- Ecrã: Hoje -->
+      <div class="phone frente" aria-hidden="true">
+        <div class="ecra">
+          <span class="ilha"></span>
+          <div class="estado"><span>9:41</span><i></i></div>
+          <div class="corpo">
+            <div class="a-top"><span class="b">cumpre</span><span class="pts"><svg viewBox="0 0 24 24"><use href="#i-estrela"/></svg>1 005</span><span class="av">RC</span></div>
+            <div class="a-data">Quarta, 21 de outubro</div>
+            <div class="a-h1">Olá, Rita</div>
+            <div class="a-aviso"><svg viewBox="0 0 24 24"><use href="#i-relogio"/></svg><span>Faltam 5 dias para o teste de Matemática A. Começa hoje: 25 minutos chegam.</span></div>
+            <div class="a-hero">
+              <div class="l"><span>Próximo teste</span><span class="tag">Faltam 5 dias</span></div>
+              <div class="t">Matemática A</div>
+              <div class="s">Segunda, 26 de outubro</div>
+              <div class="l" style="margin-top:4px"><span>Preparação · 1 de 3 temas</span><span>33%</span></div>
+              <div class="a-bar"><i style="width:33%"></i></div>
+            </div>
+            <div class="a-card">
+              <h4>Estudo de hoje <small>2 de 3 feitos</small></h4>
+              <div class="a-li"><span class="dot c1"></span><span class="g"><b>Matemática A</b><span>Limites · 25 min</span></span><span class="ok on"></span></div>
+              <div class="a-li"><span class="dot c3"></span><span class="g"><b>Física e Química A</b><span>Ondas · 15 min</span></span><span class="ok on"></span></div>
+              <div class="a-li"><span class="dot c5"></span><span class="g"><b>Português</b><span>Os Maias, cap. 3 · 20 min</span></span><span class="ok"></span></div>
+            </div>
+          </div>
+          <div class="a-tabs"><span class="on"><i></i>Hoje</span><span><i></i>Pastas</span><span><i></i>Loja</span><span><i></i>Progresso</span></div>
+        </div>
+      </div>
+      <!-- Ecrã: modo foco -->
+      <div class="phone atras" aria-hidden="true">
+        <div class="ecra escuro">
+          <span class="ilha"></span>
+          <div class="estado"><span>17:32</span><i></i></div>
+          <div class="f-corpo">
+            <div class="f-hora">17:32</div>
+            <div class="f-disc">Matemática A</div>
+            <div class="f-anel">
+              <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="none" stroke="#2E2E2C" stroke-width="6"/><circle cx="50" cy="50" r="44" fill="none" stroke="#FF6B4A" stroke-width="6" stroke-linecap="round" stroke-dasharray="276.5" stroke-dashoffset="88"/></svg>
+              <span class="t">17:08</span>
+            </div>
+            <div class="f-msg">Se saíres da Cumpre, esse tempo não conta.</div>
+            <div class="f-btns"><span class="b">Pausa</span><span class="a">Terminar</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="factos" aria-label="Em resumo">
+  <div class="wrap">
+    <div><b>Do 1.º ano à faculdade</b><span>Básico, secundário e ensino superior</span></div>
+    <div><b>Listas oficiais</b><span>Escolas e cursos de todo o país</span></div>
+    <div><b>Lembretes</b><span>7 dias, 3 dias e véspera de cada teste</span></div>
+    <div><b>Grátis</b><span>Criar conta e usar a app não custa nada</span></div>
+  </div>
+</section>
+
+<section class="sec" id="como">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="kicker">Como funciona</div>
+      <h2>Três minutos para montar. Depois é só cumprir.</h2>
+    </div>
+    <div class="passos">
+      <div class="passo"><h3>Cria a conta</h3><p>Escolhes a escola, o ano e o curso nas listas oficiais. As disciplinas do teu ano aparecem sozinhas.</p></div>
+      <div class="passo"><h3>Junta o horário e os testes</h3><p>Tira uma foto ao horário e a Cumpre lê-o. Cola o link do calendário da escola e os testes entram sozinhos.</p></div>
+      <div class="passo"><h3>Estuda o que é preciso</h3><p>Todos os dias vês o que estudar e quanto tempo. Cumpres, ganhas pontos e chegas ao teste com a matéria vista.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="funcoes" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="kicker">Funções</div>
+      <h2>Tudo o que a escola te pede, arrumado.</h2>
+    </div>
+
+    <div class="destaque">
+      <div class="txt">
+        <h3>Um plano até ao teste, dia a dia.</h3>
+        <p>Juntas os temas que saem e a Cumpre reparte o estudo pelos dias que faltam, conforme o teu ano. Os últimos dois dias ficam para rever.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Vês em Hoje o que estudar e durante quanto tempo.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Lembretes 7 dias, 3 dias e na véspera de cada teste ou frequência.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>A barra de preparação mostra quanto já reviste.</span></li>
+        </ul>
+      </div>
+      <div class="tel">
+        <div class="phone" aria-hidden="true">
+          <div class="ecra">
+            <span class="ilha"></span>
+            <div class="estado"><span>18:00</span><i></i></div>
+            <div class="corpo" style="padding-top:12px">
+              <div class="a-data">← Testes</div>
+              <div class="a-h1" style="font-size:21px;margin-top:0">Teste de Matemática A</div>
+              <div class="a-data">Segunda, 26 de outubro · faltam 5 dias</div>
+              <div class="a-card">
+                <h4>Temas <small>1 de 3 revistos</small></h4>
+                <div class="a-li"><span class="ok on"></span><span class="g"><b>Funções</b><span>revisto ontem</span></span></div>
+                <div class="a-li"><span class="ok"></span><span class="g"><b>Limites</b><span>hoje · 25 min</span></span></div>
+                <div class="a-li"><span class="ok"></span><span class="g"><b>Derivadas</b><span>sexta · 25 min</span></span></div>
+              </div>
+              <div class="a-card">
+                <h4>O teu plano</h4>
+                <div class="a-li"><span class="dot c1"></span><span class="g"><b>Quarta e quinta</b><span>Limites</span></span><span class="p">25 min</span></div>
+                <div class="a-li"><span class="dot c1"></span><span class="g"><b>Sexta e sábado</b><span>Derivadas</span></span><span class="p">25 min</span></div>
+                <div class="a-li"><span class="dot c6"></span><span class="g"><b>Domingo</b><span>Revisão de tudo</span></span><span class="p">40 min</span></div>
+              </div>
+            </div>
+            <div class="a-tabs"><span class="on"><i></i>Hoje</span><span><i></i>Pastas</span><span><i></i>Loja</span><span><i></i>Progresso</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="destaque inv">
+      <div class="txt">
+        <h3>Modo foco: só tu, o tempo e as horas.</h3>
+        <p>Escolhes 10, 25 ou 50 minutos e o telemóvel fica só com o cronómetro. Se saíres da Cumpre, esse tempo não conta, nem para o estudo nem para os pontos.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Começa com 10 minutos, quando custa arrancar.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>O ecrã fica ligado enquanto estudas.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Cada 5 minutos dá 2 pontos, e acabar a sessão dá mais 5.</span></li>
+        </ul>
+      </div>
+      <div class="tel">
+        <div class="phone" aria-hidden="true">
+          <div class="ecra escuro">
+            <span class="ilha"></span>
+            <div class="estado"><span>21:14</span><i></i></div>
+            <div class="f-corpo">
+              <div class="f-hora">21:14</div>
+              <div class="f-disc">Física e Química A</div>
+              <div class="f-anel">
+                <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="none" stroke="#2E2E2C" stroke-width="6"/><circle cx="50" cy="50" r="44" fill="none" stroke="#FF6B4A" stroke-width="6" stroke-linecap="round" stroke-dasharray="276.5" stroke-dashoffset="190"/></svg>
+                <span class="t">07:51</span>
+              </div>
+              <div class="f-msg">Sessão de 25 minutos · já ganhaste 6 pontos</div>
+              <div class="f-btns"><span class="b">Pausa</span><span class="b">+5 min</span><span class="a">Terminar</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="destaque">
+      <div class="txt">
+        <h3>A tua média, sempre em dia.</h3>
+        <p>Pões as notas de cada ano e a Cumpre faz as contas com as regras atuais: a média do secundário, com exames, e uma simulação da nota de candidatura. No superior, a média pesa os ECTS.</p>
+        <ul>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>As notas dos anos anteriores ficam guardadas na conta.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>Escala de 0 a 20 e de 0 a 200.</span></li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg><span>No básico, os níveis de 1 a 5.</span></li>
+        </ul>
+      </div>
+      <div class="tel">
+        <div class="phone" aria-hidden="true">
+          <div class="ecra">
+            <span class="ilha"></span>
+            <div class="estado"><span>16:20</span><i></i></div>
+            <div class="corpo">
+              <div class="a-h1" style="font-size:21px;margin-top:4px">A tua média</div>
+              <div class="a-data" style="margin-top:-6px">11.º ano · Ciências e Tecnologias</div>
+              <div class="m-hero"><div class="l">Média do secundário</div><div class="n">15,5</div><div class="s">155 pontos em 200 · 7 disciplinas</div></div>
+              <div class="m-seg"><span>10.º</span><span class="on">11.º</span><span>12.º</span><span>Exames</span></div>
+              <div>
+                <div class="m-li"><b>Português</b><span>15</span></div>
+                <div class="m-li"><b>Inglês</b><span>17</span></div>
+                <div class="m-li"><b>Matemática A</b><span>16</span></div>
+                <div class="m-li"><b>Física e Química A</b><span>14</span></div>
+              </div>
+              <div class="m-cand"><span>Nota de candidatura (simulação)</span><b>155,0</b></div>
+            </div>
+            <div class="a-tabs"><span><i></i>Hoje</span><span><i></i>Pastas</span><span><i></i>Loja</span><span class="on"><i></i>Progresso</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="funcoes">
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-camara"/></svg></span><h3>Horário por foto</h3><p>Tiras uma foto ou um print e a Cumpre lê as aulas, as horas e as salas. Confirmas e fica feito.</p></div>
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-cal"/></svg></span><h3>Calendário da escola</h3><p>Colas o link do calendário (por exemplo, do Nónio) e os testes entram sozinhos e mantêm-se atualizados.</p></div>
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-quadro"/></svg></span><h3>Foto do quadro</h3><p>O professor escreveu os TPC no quadro? Uma foto e passam a tarefas, com a data de entrega.</p></div>
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-pasta"/></svg></span><h3>Pastas por disciplina</h3><p>Resumos, apontamentos, fotos e PDF de cada disciplina, no telemóvel e no computador.</p></div>
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-plano"/></svg></span><h3>Plano até ao teste</h3><p>O estudo repartido pelos dias que faltam, com revisão no fim.</p></div>
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-foco"/></svg></span><h3>Modo foco</h3><p>Sessões de 10, 25 ou 50 minutos. O tempo fora da app não conta.</p></div>
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-sino"/></svg></span><h3>Lembretes</h3><p>No telemóvel, 7 dias, 3 dias e na véspera de cada teste.</p></div>
+      <div class="func"><span class="ic"><svg aria-hidden="true"><use href="#i-media"/></svg></span><h3>Calculadora de média</h3><p>Secundário, superior e básico, com as regras atuais.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="banda" id="pontos">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="kicker">Pontos</div>
+      <h2>Estudar dá pontos. Os pontos dão coisas boas.</h2>
+      <p>Ganhas pontos por abrir a app, estudar em modo foco e cumprir o plano. Depois trocas por resumos, temas de cores ou uma explicação.</p>
+    </div>
+    <div class="pontos">
+      <div class="p-col">
+        <h3>Ganhas</h3>
+        <div class="p-li"><div><b>Criar a conta</b></div><span class="v">+150</span></div>
+        <div class="p-li"><div><b>Abrir a Cumpre</b><small>uma vez por dia</small></div><span class="v">+5</span></div>
+        <div class="p-li"><div><b>Estudar em modo foco</b><small>por cada 5 minutos, mais 5 se acabares a sessão</small></div><span class="v">+2</span></div>
+        <div class="p-li"><div><b>Cumprir o estudo de hoje</b></div><span class="v">+15</span></div>
+        <div class="p-li"><div><b>Dias seguidos</b><small>aos 3, 7, 14 e 30 dias</small></div><span class="v">até +250</span></div>
+        <div class="p-li"><div><b>Temas, tarefas e testes</b><small>juntar temas, rever, concluir tarefas</small></div><span class="v">+5 a +30</span></div>
+      </div>
+      <div class="p-col">
+        <h3>Trocas</h3>
+        <div class="p-li"><div><b>Resumos e formulários</b><small>ficam teus para sempre</small></div><span class="v">grátis a 250</span></div>
+        <div class="p-li"><div><b>Temas de cores da app</b><small>6 combinações</small></div><span class="v">300</span></div>
+        <div class="p-li"><div><b>Proteção da sequência</b><small>salva um dia em que não abriste a app</small></div><span class="v">150</span></div>
+        <div class="p-li"><div><b>1.ª explicação grátis</b><small>30 minutos com um explicador parceiro. Estamos a juntar os primeiros.</small></div><span class="v">3 000</span></div>
+      </div>
+    </div>
+    <p class="p-nota">Máximo de 200 pontos por dia a estudar, para ser justo para todos.</p>
+  </div>
+</section>
+
+<section class="sec" id="pais">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="kicker">Encarregados de educação</div>
+      <h2>Feita para estudar, e só para isso.</h2>
+      <p>A Cumpre não tem publicidade, não tem conversas com desconhecidos e não vende dados. Os dados servem só para a app funcionar.</p>
+    </div>
+    <div class="pais">
+      <div class="pai"><span class="ic"><svg aria-hidden="true"><use href="#i-pais"/></svg></span><div><h3>Menores de 13 anos, só com autorização</h3><p>Antes de criar a conta, a app pede o email do encarregado de educação e a confirmação de que autorizou.</p></div></div>
+      <div class="pai"><span class="ic"><svg aria-hidden="true"><use href="#i-semanuncios"/></svg></span><div><h3>Sem publicidade</h3><p>Nada de anúncios, nem dentro da app nem nos resumos.</p></div></div>
+      <div class="pai"><span class="ic"><svg aria-hidden="true"><use href="#i-semchat"/></svg></span><div><h3>Sem conversas abertas</h3><p>Não há chat nem perfis públicos. Cada aluno só vê as suas coisas.</p></div></div>
+      <div class="pai"><span class="ic"><svg aria-hidden="true"><use href="#i-escudo"/></svg></span><div><h3>Explicações só com autorização</h3><p>Num pedido de explicação, o contacto só é partilhado com o explicador se o encarregado de educação autorizar (abaixo dos 18 anos).</p></div></div>
+      <div class="pai"><span class="ic"><svg aria-hidden="true"><use href="#i-lixo"/></svg></span><div><h3>Apagar tudo, a qualquer momento</h3><p>No Perfil, "Apagar conta" apaga os dados e os ficheiros de uma vez, em todos os aparelhos.</p></div></div>
+      <div class="pai"><span class="ic"><svg aria-hidden="true"><use href="#i-relogio"/></svg></span><div><h3>Poucas notificações</h3><p>Só os lembretes dos testes, e só se o aluno os ligar.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="instalar" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="kicker">No telemóvel</div>
+      <h2>Põe a Cumpre no ecrã principal.</h2>
+      <p>Abre-se como uma app, sem loja de aplicações. No iPhone, é assim que recebes os lembretes.</p>
+    </div>
+    <div class="instalar">
+      <div class="inst">
+        <h3>iPhone</h3>
+        <ol>
+          <li>Abre <b>app.cumpre.pt</b> no Safari.</li>
+          <li>Toca em Partilhar (o quadrado com a seta).</li>
+          <li>Escolhe <b>Adicionar ao ecrã principal</b>.</li>
+        </ol>
+        <p class="obs">Para os lembretes, precisas do iOS 16.4 ou mais recente.</p>
+      </div>
+      <div class="inst">
+        <h3>Android</h3>
+        <ol>
+          <li>Abre <b>app.cumpre.pt</b> no Chrome.</li>
+          <li>Toca no menu (os três pontos).</li>
+          <li>Escolhe <b>Instalar app</b> ou <b>Adicionar ao ecrã principal</b>.</li>
+        </ol>
+        <p class="obs">No computador, basta abrir app.cumpre.pt no browser.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="perguntas" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="kicker">Perguntas</div>
+      <h2>O que nos costumam perguntar.</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>A Cumpre é mesmo grátis?</summary>
+        <div><p>Sim. Criar conta e usar a app é grátis. Os pontos ganham-se a estudar e trocam-se na loja da app.</p></div>
+      </details>
+      <details>
+        <summary>Tenho de instalar alguma coisa?</summary>
+        <div><p>Não. Abres app.cumpre.pt no browser do telemóvel ou do computador. Se quiseres, adicionas ao ecrã principal e fica como uma app.</p></div>
+      </details>
+      <details>
+        <summary>Serve para o meu ano?</summary>
+        <div><p>Serve do 1.º ano do básico ao ensino superior. Escolhes a escola e o curso nas listas oficiais, e as disciplinas do teu ano aparecem sozinhas.</p></div>
+      </details>
+      <details>
+        <summary>Dá para juntar o calendário da minha escola?</summary>
+        <div><p>Se a plataforma da tua escola te der um link de calendário (como o Nónio), colas esse link na Cumpre e os testes entram sozinhos. Também dá com um ficheiro .ics, ou a marcar os testes à mão.</p></div>
+      </details>
+      <details>
+        <summary>As fotos do horário e do quadro ficam guardadas?</summary>
+        <div><p>Não. A foto serve só para ler as aulas ou as tarefas. Depois de confirmares, fica só o que aprovaste.</p></div>
+      </details>
+      <details>
+        <summary>O que acontece aos meus dados?</summary>
+        <div><p>Ficam guardados em servidores na União Europeia e servem só para a app funcionar. Apagas tudo quando quiseres, no Perfil. Lê a <a href="/privacidade">política de privacidade</a>.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Começa hoje.<br>Demora um minuto.</h2>
+    <p>Cria a conta, junta o horário e vê o que tens para estudar esta semana.</p>
+    <div class="cta"><a class="btn lg coral" href="https://app.cumpre.pt">Criar conta grátis <svg aria-hidden="true"><use href="#i-seta"/></svg></a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Cumpre, início">
+      <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#111"/><path d="M66.16 64.55A21.75 21.75 0 1 1 66.16 35.45" fill="none" stroke="#FF6B4A" stroke-width="10.5" stroke-linecap="round"/></svg>
+      cumpre
+    </a>
+    <nav class="lig" aria-label="Rodapé">
+      <a href="https://app.cumpre.pt">Abrir a app</a>
+      <a href="/privacidade">Privacidade</a>
+      <a href="mailto:geral@cumpre.pt">geral@cumpre.pt</a>
+      <a href="https://www.instagram.com/cumpre.pt/" rel="noopener">Instagram</a>
+    </nav>
+    <small>© 2026 Cumpre</small>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var t = document.getElementById('topo');
+  function f() { t.classList.toggle('scrolled', window.scrollY > 8); }
+  window.addEventListener('scroll', f, { passive: true }); f();
+})();
+</script>
+</body>
+</html>
